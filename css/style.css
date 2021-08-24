@@ -609,11 +609,14 @@ img {
 }
 .close-btn {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   right: 8px;
   top: 8px;
-  border-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--primary-white-color);
   cursor: pointer;
